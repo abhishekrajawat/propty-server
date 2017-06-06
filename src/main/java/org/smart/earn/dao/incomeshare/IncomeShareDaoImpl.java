@@ -2,6 +2,7 @@ package org.smart.earn.dao.incomeshare;
 
 import java.util.Date;
 import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -9,10 +10,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.Root;
-import org.smart.earn.model.AuthUser;
+
 import org.smart.earn.model.IncomeShare;
 import org.smart.earn.model.Property;
-import org.smart.earn.model.PropertyType;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
